@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300;1,400;1,700;1,900&display=swap');
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family:'Merriweather', sans-serif;
+
+}
+
+header{ 
+    top: 0; 
+    left:0; 
+    width: 100%; 
+    background-color: #FEFAE0;
+}
+
+nav { 
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav ul { 
+    padding: 30px 100px 5px; 
+    position: relative; 
+    display: flex;
+}
+
+nav ul li { 
+    list-style: none; 
+}
+
+nav ul li a{ 
+    display: inline-block; 
+    color: #0d090a; 
+    font-weight: 700; 
+    margin-left: 40px; 
+    letter-spacing: 1px; 
+    text-decoration: none;
+}
+
+nav i{ 
+    padding: 30px 10px 5px 10px; 
+    display: flex; 
+    flex-direction: center;
+    align-items: center;
+
+}
+
+.imgGirl{ 
+    position: relative; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.imgGirl img { 
+    position: relative; 
+    max-width: 600px; 
+   
+}
+
+.primeirafoto{ 
+     transform: rotateZ(8deg);
+     padding: 1px 70px 11px;
+     margin-top: 10;
+     width: 400px;
+  
+}
+
+h1{ 
+    font-size: 5em;
+    font-weight:bolder;
+    text-align: center;
+    color: #64110b;
+}
+
+.stikers{ 
+    width: 100px;
+    margin-top: 250px;
+}
+
+
+.segundafoto{ 
+    transform: rotateZ(-12deg);
+    padding: 1px 70px 50px;
+    margin-top: 150px;
+    width: 390px;
+}
+
+.buy{ 
+    position: relative; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+     background-color: #FEFAE0;
+
+}
+
+.buy .textBox{ 
+    position: relative; 
+    max-width: 700px; 
+    margin-right: 150px;
+}
+.buy .textBox h1{ 
+    color: #0d090a; 
+    font-size: 3em;
+    line-height: 1.4em; 
+    font-weight: 400px;
+}
+
+.bag{ 
+    width: 370px;
+    margin-right: 200px;
+}
+
+.thumb { 
+  position: relative;  
+  bottom: 20px; 
+  transform: translateX(-30%);
+  display: flex; 
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+.thumb li{ 
+    list-style:none; 
+    display: flex;
+    margin: 0 20px; 
+    cursor: pointer; 
+    transition: 0.5s; 
+}
+
+.thumb li:hover{ 
+   transform: translateY(-15%);
+}
+
+.thumb li img{
+    max-width: 85px; 
+}
+
+.stikers img{ 
+    width: 150px;
+    margin-left: 200px;    
+}

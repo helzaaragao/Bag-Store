@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d90d12477.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Shop Bags</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </nav>
+        <div class="imgGirl">
+            <a href=""><img src="./imgs/Girlprada.jpg" class="primeirafoto"></a>
+            <img class="stikers" src="./imgs/Stikers (2).png" alt="">
+            <h1 class="phrase">SUMMER<br>2022</h1>
+            <img class="stikers"src="./imgs/Stikers1.png">
+            <a href=""><img src="./imgs/Girlprada2.png" class="segundafoto"></a>
+            
+        </div>
+    </header>
+    <section class="buy">
+        <div class="circle"></div>
+        <div class="textBox">
+            <h1>Always <br> be yourself <br> with style</h1>
+        </div>
+        <div clas="imgBox">
+            <img src="./imgs/BagWhite.png" class="bag">
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./imgs/BagWhite.png" onclick="imgSlider('./imgs/BagWhite.png'); changeCircleColor('#64110b')"></li>
+            <li><img src="./imgs/BagPink.png" onclick="imgSlider('./imgs/BagPink4.png'); changeCircleColor('#e3b6b9')" ></li>
+            <li><img src="./imgs/BagBlack.png" onclick="imgSlider('./imgs/BagBlack2.png'); changeCircleColor('#0d090a')" ></li>
+        </ul>
+        
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){ 
+            document.querySelector('.bag').src=anything; 
+        }
+
+        function changeCircleColor(color){ 
+            const circle = document.querySelector('.circle'); 
+            circle.style.background = color; 
+        }
+
+    </script>
+   
+</body>
+</html>
