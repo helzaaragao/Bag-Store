@@ -12,11 +12,9 @@ header{
     top: 0; 
     left:0; 
     width: 100%; 
-    background-color: #FEFAE0;
 }
 
 nav { 
-
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -65,28 +63,20 @@ nav i{
 
 .primeirafoto{ 
      transform: rotateZ(8deg);
-     padding: 1px 70px 11px;
-     margin-top: 10;
-     width: 400px;
-  
+     padding: 1px 60px 11px;
+     width: 400px; 
 }
 
 h1{ 
     font-size: 5em;
-    font-weight:bolder;
+    font-weight: 400;
     text-align: center;
-    color: #64110b;
+    color: #0d090a;
 }
-
-.stikers{ 
-    width: 100px;
-    margin-top: 250px;
-}
-
 
 .segundafoto{ 
     transform: rotateZ(-12deg);
-    padding: 1px 70px 50px;
+    padding: 1px 60px 20px;
     margin-top: 150px;
     width: 390px;
 }
@@ -97,7 +87,6 @@ h1{
     display: flex; 
     justify-content: space-around; 
     align-items: center;
-     background-color: #FEFAE0;
 
 }
 
@@ -106,7 +95,7 @@ h1{
     max-width: 700px; 
     margin-right: 150px;
 }
-.buy .textBox h1{ 
+h2{ 
     color: #0d090a; 
     font-size: 3em;
     line-height: 1.4em; 
